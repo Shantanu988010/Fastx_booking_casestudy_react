@@ -18,7 +18,7 @@ const Profile = () => {
         setUser(res.data);
       } catch (err) {
         console.error('❌ Failed to fetch user profile:', err);
-        setMessage('❌ You are not authorized. Please log in.');
+        setMessage('❌ You are not authorized. Please log in again .');
       }
     };
 
