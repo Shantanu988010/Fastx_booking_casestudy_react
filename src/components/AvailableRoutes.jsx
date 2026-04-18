@@ -19,7 +19,7 @@ const AvailableRoutes = () => {
         setRoutes(res.data);
       } catch (err) {
         console.error('Error fetching routes:', err);
-        setError('❌ Failed to load routes.');
+        setError('❌ Failed to load Routes.');
       } finally {
         setLoading(false);
       }

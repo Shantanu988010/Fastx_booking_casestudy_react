@@ -17,8 +17,8 @@ const Profile = () => {
         });
         setUser(res.data);
       } catch (err) {
-        console.error('❌ Failed to fetch user profile:', err);
-        setMessage('❌ You are not authorized. Please log in again .');
+        console.error('❌ Failed to fetch User profile:', err);
+        setMessage('❌ You are not authorized. Please try log in again .');
       }
     };
 
