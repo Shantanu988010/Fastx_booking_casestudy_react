@@ -63,7 +63,7 @@ const AvailableBuses = () => {
                   📺 TV: {bus.tv ? 'Yes' : 'No'}
                 </span>
                 <span style={{ ...styles.featureChip, backgroundColor: bus.chargingPoint ? '#fff3cd' : '#f8d7da' }}>
-                  🔌 Charging: {bus.chargingPoint ? 'Available' : 'Not Available'}
+                  🔌 Charging: {bus.chargingPoint ? 'Available ' : 'Not Available'}
                 </span>
               </div>
             </div>
