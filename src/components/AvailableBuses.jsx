@@ -53,7 +53,7 @@ const AvailableBuses = () => {
               <hr style={styles.divider} />
 
               <p><strong>Bus Number :</strong> <span style={styles.textValue}>{bus.busNumber}</span></p>
-              <p><strong>Total Seats :</strong> <span style={styles.textValue}>{bus.totalSeats}</span></p>
+              <p><strong>Total Seats available :</strong> <span style={styles.textValue}>{bus.totalSeats}</span></p>
 
               <div style={styles.features}>
                 <span style={{ ...styles.featureChip, backgroundColor: bus.waterBottle ? '#d4edda' : '#f8d7da' }}>

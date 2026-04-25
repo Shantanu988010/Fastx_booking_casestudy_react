@@ -17,7 +17,7 @@ const AdminPaymentDetails = () => {
         });
         setPayments(res.data);
       } catch (error) {
-        console.error('❌ Failed to fetch payments:', error);
+        console.error('❌ Failed to fetch payments : ', error);
       } finally {
         setLoading(false);
       }
