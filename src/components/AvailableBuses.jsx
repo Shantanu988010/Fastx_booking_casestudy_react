@@ -38,7 +38,7 @@ const AvailableBuses = () => {
         {loading && <p style={styles.infoText}>⏳ Loading available buses...</p>}
         {error && <p style={styles.errorText}>{error}</p>}
         {!loading && !error && buses.length === 0 && (
-          <p style={styles.infoText}>No buses available at the moment.</p>
+          <p style={styles.infoText}>No buses are available at the moment.</p>
         )}
 
         <div style={styles.grid}>
